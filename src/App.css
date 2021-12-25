@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+:root {
+    --primary: rgb(51, 173, 39);
+    --secondary: rgb(42, 42, 42);
+}
+
+* {
+    font-family: "Comfortaa", cursive;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+h1 {
+    text-align: center;
+    margin: 0.5rem !important;
+}
+
+.recharts-surface {
+    position: absolute !important;
+    left: 0px;
+    top: 0;
+}
